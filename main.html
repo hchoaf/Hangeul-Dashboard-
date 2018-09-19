@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>당신의 오늘</title>
+    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="functions.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+    <link rel="stylesheet" href="bottom.css" type="text/css">
+    <link rel="stylesheet" href="center.css" type="text/css">
+  </head>
+  <body onload="clock(); calendar()">
+    <div id="emptysection">
+    </div>
+
+    <div id="mainsection">
+      <div id="blanksection">
+
+      </div>
+      <div id="centersection">
+        <div id="calendarcontainer">
+          <div id="calendartext">
+            <span>오늘은</span>
+            <span id="month">일</span>
+            <span>월</span>
+            <span id="day">ㅁㄴ</span>
+            <span>일</span>
+          </div>
+        </div>
+        <div id="clockcontainer">
+          <span id="지" class="active">지</span>
+          <span id="금" class="active">금</span>
+          <span id="은" class="active">은</span>
+          <span id="오" class="active">오</span>
+          <span id="전">전</span>
+          <span id="후">후</span>
+          <br>
+          <span id="열" class="hour">열</span>
+          <span id="한" class="hour">한</span>
+          <span id="두" class="hour">두</span>
+          <span id="세" class="hour">세</span>
+          <span id="네" class="hour">네</span>
+          <span id="다" class="hour">다</span>
+          <br>
+          <span id="여" class="hour">여</span>
+          <span id="섯" class="hour">섯</span>
+          <span id="일" class="hour">일</span>
+          <span id="곱" class="hour">곱</span>
+          <span id="여2" class="hour">여</span>
+          <span id="덟" class="hour">덟</span>
+          <br>
+          <span id="아" class="hour">아</span>
+          <span id="홉" class="hour">홉</span>
+          <span id="시" class="active">시</span>
+          <span id="이" class="tenminute">이</span>
+          <span id="삼" class="tenminute">삼</span>
+          <span id="사" class="tenminute">사</span>
+          <br>
+          <span id="오" class="tenminute">오</span>
+          <span id="십" class="tenminute">십</span>
+          <span id="일2" class="oneminute">일</span>
+          <span id="이2" class="oneminute">이</span>
+          <span id="삼2" class="oneminute">삼</span>
+          <span id="사2" class="oneminute">사</span>
+          <br>
+          <span id="오2" class="oneminute">오</span>
+          <span id="육" class="oneminute">육</span>
+          <span id="칠" class="oneminute">칠</span>
+          <span id="팔" class="oneminute">팔</span>
+          <span id="구" class="oneminute">구</span>
+          <span id="분" class="active">분</span>
+        </div>
+      </div>
+
+      <div id="blanksection">
+      </div>
+
+    </div>
+
+    <div id="bottomsection">
+
+
+      <div id="searchengine">
+        <form id="searchformsection" name="searchform" method="get" action="https://www.google.com/search">
+          <input id="searchbar" type="text" name="q" value="" placeholder="구글 검색" size="80px;" />
+        </form>
+      </div>
+      <script>
+        searchbarFocus("#searchbar");
+      </script>
+      <div id="favlinks">
+        <div class="linkarea">
+        <a href="https://www.naver.com">네이버</a>
+
+        </div>
+        <div class="linkarea">
+
+          <a href="https://www.google.com">구글</a>
+        </div>
+        <div class="linkarea">
+
+          <a href="https://www.facebook.com">페이스북</a>
+        </div>
+        <div class="linkarea">
+
+          <a href="https://www.instagram.com">인스타그램</a>
+        </div>
+      </div>
+      <script>
+        hover("a");
+      </script>
+    </div>
+
+      <p id="info">
+        이 웹페이지는 PC 화면에 최적화되어있습니다.
+        <br>
+        Copyright by Hangsun Cho 2018.
+      </p>
+
+
+
+
+    <script src="functions.js" type="text/javascript"></script>
+  </body>
+</html>
