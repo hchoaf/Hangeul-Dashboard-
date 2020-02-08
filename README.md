@@ -26,5 +26,3 @@ css
 js
 jquery
 
-## Developer
-Hangsun Cho 
